@@ -1,0 +1,19 @@
+body
+{background-color: black;
+color: white}
+.h1
+{text-align: center;
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+div
+{color: white}
+section
+{background-image: url(background.jpg);
+height: 500px;
+margin-top: 10px;
+}
+
+p
+{color: white}
