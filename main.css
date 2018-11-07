@@ -1,19 +1,82 @@
-body
-{background-color: black;
-color: white}
-.h1
-{text-align: center;
+body{
+  background-color: black;
+color: white
+}
+
+/* .h1{
+  text-align: center;
   background-color: white;
   color: black;
   padding: 10px;
+} */
+.div{
+  background-color: white;
+  padding-left: 50px
 }
-div
-{color: white}
+
 section
 {background-image: url(background.jpg);
+background-position: center;
+background-size: contain;
 height: 500px;
 margin-top: 10px;
 }
 
+#section1
+{background-image: url(background.jpg);
+background-position: center;
+background-size: contain;
+height: 750px;
+margin-top: 10px;
+}
+
+#section2
+{background-image: url(background.jpg);
+background-position: center;
+background-size: contain;
+height: 300px;
+margin-top: 10px;
+}
+
+img{
+  display: inline-block;
+}
+
+.navi {
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  color: black;
+  padding: 5px 100px
+}
+
+.a{
+  color: black
+}
+
 p
-{color: white}
+{color: white;
+font-size: 23px;
+text-align: center;}
+
+footer{
+  background-color: white;
+  color: black;
+  font-size: 23px
+}
+
+@keyframes fade {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#fade{
+  animation: fade 5s;
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
