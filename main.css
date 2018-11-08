@@ -26,7 +26,7 @@ margin-top: 10px;
 {background-image: url(background.jpg);
 background-position: center;
 background-size: contain;
-height: 750px;
+height:auto;
 margin-top: 10px;
 }
 
@@ -42,6 +42,20 @@ img{
   display: inline-block;
 }
 
+.img{
+  margin: 25px
+}
+
+.imgText{
+  text-align: justify;
+  display: inline;
+  float: left;
+}
+
+.imgText img{
+  display: inline-block;
+  margin: 0 auto;
+}
 .navi {
   align-items: center;
   list-style: none;
